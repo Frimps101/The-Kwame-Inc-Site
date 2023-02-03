@@ -1,0 +1,50 @@
+section{
+    padding: 2rem 9%;
+    display: flex;
+    gap: 2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 1 45rem;
+    /* height: 100vh; */
+    justify-content: center;
+}
+
+.content h3{
+    font-size: 60px;
+}
+
+
+.content p{
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* .content .btn{
+    background: #000080;
+    display: block;
+    color: "white";
+    padding: "0.8rem 10rem";
+    border-radius: ".5rem";
+    cursor: "pointer";
+    margin-top: "1rem";
+    display: "block";
+    width: "3em"; 
+}
+
+.content .btn:hover{
+    opacity: .5;
+} */
+
+.image{
+    flex: 1 1 45rem;
+    height: 80vh;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}

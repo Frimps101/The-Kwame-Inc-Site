@@ -1,0 +1,27 @@
+.icons{
+    padding: 2rem 9%;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_head{
+    width: 80%;
+    margin: auto;
+}
+
+.icon_head p{
+    font-size: 2.8rem;
+}
+
+.icon_imgs img{
+    color: yellow;
+}
+
+.icon_imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

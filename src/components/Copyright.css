@@ -1,0 +1,8 @@
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_others a{
+    margin-right: 2rem;
+}

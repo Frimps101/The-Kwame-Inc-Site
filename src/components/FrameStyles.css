@@ -1,0 +1,32 @@
+.wall{
+    margin-top: 5rem;
+    background-image: url(../../public/images/wall_frame.jpg);
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.wall h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.wall p{
+    color: white;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-size: 1.2rem;
+}
