@@ -1,20 +1,19 @@
 section{
-    padding: 2rem 9%;
+    padding: 2rem 10%;
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-
-    flex: 1 1 45rem;
-    /* height: 100vh; */
     justify-content: center;
+    align-items: flex-start;
 }
 
 .content h3{
-    font-size: 60px;
+    font-size: 3.5rem;
+    font-weight: bold;
 }
 
 
@@ -22,22 +21,6 @@ section{
     padding-top: 1rem;
     margin-bottom: 2rem;
 }
-
-/* .content .btn{
-    background: #000080;
-    display: block;
-    color: "white";
-    padding: "0.8rem 10rem";
-    border-radius: ".5rem";
-    cursor: "pointer";
-    margin-top: "1rem";
-    display: "block";
-    width: "3em"; 
-}
-
-.content .btn:hover{
-    opacity: .5;
-} */
 
 .image{
     flex: 1 1 45rem;

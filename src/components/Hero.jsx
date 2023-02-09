@@ -8,7 +8,7 @@ const Hero = ({title, desc, imgFile}) => {
             <div class="content">
                 <h3>{ title }</h3>
                 <p>{ desc }</p>
-                <Button btnText="Text me" class="btn"/>
+                <Button btnText="Say Hello"/>
             </div>
             <div class="image">
                 <img src={ imgFile } alt="" />

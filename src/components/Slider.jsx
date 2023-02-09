@@ -1,11 +1,12 @@
-import React, { useRef, useState } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import "./Slider.css";
 
 import Hero from "./Hero"
 import {sliderItems} from "../data" 
 
-import { Navigation, Pagination, Mousewheel, Keyboard, Scrollbar, A11y } from "swiper";
+import {  Pagination } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,22 +18,11 @@ import "swiper/css/pagination";
 
 export default function Slider() {
 
+  
   return (
     <>
       <Swiper
-        cssMode={true}
-        navigation={true}
-        loop={true}
-        pagination={{
-          dynamicBullets: true,
-          clickable: true
-        }}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        pagination={true} modules={[Pagination]} className="mySwiper"
       >
       {sliderItems.map((item)=>(
         <SwiperSlide>

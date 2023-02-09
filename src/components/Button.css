@@ -3,24 +3,22 @@
     --secondary: #fd5602;
     --light-color: #fa816c;
     --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    --gradient: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+
 }
 
 .btn{     
-    background: var(--primary);
+    background: var(--gradient);
     color: white;
-    padding: 0.6em 6em;
-    border-radius: .5rem;
+    padding: 0.6em 10%;
     cursor: pointer;
     margin-top: 1rem;
-    width: 2em; 
-    text-align: center;
-    /* line-height: 2em; */
+    box-shadow: var(--box-shadow);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
 .content .btn:hover{
-    opacity: .9;
+    opacity: .8;
 }
