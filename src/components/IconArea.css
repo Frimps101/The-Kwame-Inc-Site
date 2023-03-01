@@ -1,6 +1,6 @@
 .icons{
     padding: 2rem 9%;
-    margin-top: 5rem;
+    margin-top: 4rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -11,17 +11,31 @@
     margin: auto;
 }
 
+.icon-title{
+    color: var(--dark);
+}
+
 .icon_head p{
     font-size: 2.8rem;
 }
 
-.icon_imgs img{
-    color: yellow;
-}
 
 .icon_imgs{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+}
+
+i{
+    font-size: 2.6rem;
+    color: var(--primary);
+    cursor: pointer;
+    transition: (--transition);
+    transition-property: (--transition-prop);
+    margin-bottom: 15px;
+}
+
+i:hover{
+    color: var(--primary-dark);
 }

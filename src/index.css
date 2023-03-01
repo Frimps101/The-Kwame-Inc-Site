@@ -6,14 +6,19 @@ body {
 }
 
 :root{
-  --primary: #8F00FF;
+  --primary: #673de6;
+  --primary-dark: #673de6;
+  --dark:#0b0b45;
   --secondary: #fd5602;
   --light-color: #fa816c;
-  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
   --gradient: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
-  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --box-shadow-darker: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
+  --transition: .3s ease-in-out;
+  --transition-prop: color,width,background-color;
 }
+
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

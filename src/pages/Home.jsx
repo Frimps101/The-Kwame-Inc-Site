@@ -6,6 +6,7 @@ import Gallery from '../components/Gallery';
 import FrameStyles from '../components/FrameStyles';
 import Offer from '../components/Offer';
 import IconArea from '../components/IconArea';
+import Pricing from '../components/Pricing';
 import Process from '../components/Process';
 import Contacts from '../components/Contacts';
 import Footer from '../components/Footer';
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar/>
       <Slider/>
       <IconArea/>
+      <Pricing/>
       <Gallery/>
       <FrameStyles/>
       <Offer/>

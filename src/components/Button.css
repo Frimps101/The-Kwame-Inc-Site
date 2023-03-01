@@ -1,24 +1,20 @@
-:root{
-    --primary: #8F00FF;
-    --secondary: #fd5602;
-    --light-color: #fa816c;
-    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-    --gradient: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
-    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-
-}
-
 .btn{     
-    background: var(--gradient);
+    background: var(--primary);
     color: white;
-    padding: 0.6em 10%;
+    padding: 1rem 15%;
     cursor: pointer;
     margin-top: 1rem;
     box-shadow: var(--box-shadow);
-
+    font-size: 18px;
+    font-weight: 700;
     display: block;
+    border-radius: 4px;
+
+    transition: var(--transition);
+    transition-property: var(--transition-prop);
 }
 
 .content .btn:hover{
-    opacity: .8;
+    /* opacity: .8; */
+    background: var(--primary-dark);
 }
