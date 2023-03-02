@@ -9,11 +9,11 @@ const Pricing = () => {
       <div className="p-card">
         <div className="p-left">
           <h3 className="p-left--title">
-            Affordable frames for <span>priceless memories.</span>
+            <span>Affordable</span> frames for priceless memories.
           </h3>
-          <p className="p-left--text">
+          {/* <p className="p-left--text">
             We offer a wide range of high-quality frames in various sizes and styles to suit your needs.
-          </p>
+          </p> */}
           <div className="p-left--img">
             <img src="/images/pricing-img.png" alt="" />
           </div>
@@ -21,19 +21,20 @@ const Pricing = () => {
         <div className="p-right">
           <h3 className="p-right--title">Affordable Prices</h3>
           <p className="p-right--subtitle">
-            Discover affordable prices that frame your memories perfectly!
+            Discover affordable prices that frame your 
+            <span>memories perfectly!</span>
           </p>
+
           <div className="p-right--prices">
-            <table>
-                <thead>
-                    <tr>Frame Sizes & Prices</tr>
-                </thead>
-                <tbody>
+            <table className="p-table">
+                <thead className="p-table--head">
                     <tr>
-                        <th>Sizes</th>
-                        <th>Prices</th>
+                        <th className="p-table--head-item">Sizes</th>
+                        <th className="p-table--head-item">Prices</th>
                     </tr>
-                    <tr>
+                </thead>
+                <tbody className="p-table--body">
+                    <tr className="p-active">
                         <td>12x16</td>
                         <td>130gh</td>
                     </tr>

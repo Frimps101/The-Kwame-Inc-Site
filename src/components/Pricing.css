@@ -4,10 +4,9 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+   
 }
-.p-title{
-    
-}
+
 .p-card{
     background: #fff;
     padding: 15px;
@@ -16,54 +15,101 @@
     border-radius: 10px;
 
     display: flex;
-    gap: 30px;
-
-    height: 80vh;
+    gap: 40px;
+    width: 80%;
+    height: 100%;
 }
 
 .p-left{
     flex: 1;
     padding-top: 20px;
     margin: 10px;
-    background: blue;
-    width: 40%;
+    /* background: blue; */
+    width: 45%;
 }
 
 .p-left--title{
-    font-size: 1.2rem;
-    text-align: justify;
-    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 65px;
 }
 
 .p-left--title span{
-    display: block;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.p-left--text{
-    font-size: 14px;
-    text-align: justify;
-    width: 90%;
-}
 
 .p-left--img{
     position: relative;
-    width: 600px;
+    width: 650px;
 }
 
 .p-left--img img{
     width: 100%;
-    position: absolute;
+    position: relative;
     left: -160px;
-    top: 17px;
-    background-clip: border-box;
+    top: 30px;
 }
 
 .p-right{
     flex: 2;
-    width: 60%;
+    width: 50%;
+}
+
+.p-right--subtitle{
+    font-style: 12px;
+    margin-top: 10px;
+    text-transform:none;
+}
+
+.p-right--subtitle span{
+    display: block;
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--primary-dark);
+    margin-top: 5px;
 }
 
 .p-right--title{
-    padding-top: 60px;
+    padding-top: 50px;
+}
+
+.p-table{
+    border-collapse: collapse;
+    margin: 35px 0;
+    font-size: 0.9em;
+    min-width: 300px;
+    box-shadow: var(--box-shadow-darker);
+    
+}
+
+.p-table--head tr{
+    background-color: var(--primary-dark);
+}
+
+.p-table--head tr td{
+    color: #ffffff;
+}
+
+.p-table th, .p-table td{
+    padding: 12px 15px;
+}
+
+.p-table--head-item{
+    color: white;
+}
+
+.p-table--body th{
+    border-bottom: 1px solid #dddddd;
+}
+
+.p-table--body tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.p-table--body tr:last-of-type {
+    border-bottom: 2px solid var(--primary-dark);
 }
