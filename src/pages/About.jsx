@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import './About.css';
+import PageHero from '../components/PageHero'
 // import '../components/Footer';
 
 const About = () => {
   return (
     <div>
       <Navbar />
-          <div className="about_hero_title">
-            <div className='about_title'>
-              <h2>About Us</h2>
-              <p className='about_txt'>We work tirelessly to provide you with the highest level of service, empowered by complete transparency and user involvement.</p>
-            </div>
-          </div>
+      <PageHero 
+        title="About Us"
+        content="We work tirelessly to provide you with the highest level of service, empowered by complete transparency and user involvement."
+      />
 
         <div className="about_content">
           <p>
@@ -45,6 +45,7 @@ const About = () => {
           </div>
         </section>
 
+        <Footer/>
     </div>
   )
 }

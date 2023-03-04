@@ -1,0 +1,35 @@
+.about{
+    display: block;
+}
+
+.about_hero_title{
+    background: rgba(0, 0, 0, 0.8) url(../../public/images/wall_frame.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 80vh;
+    background-blend-mode: darken;
+}
+
+.about_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about_title h2, .about_txt{
+    color: white;
+    text-align: center;
+}
+
+.about_title h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about_title p{
+    font-size: 16px;
+    width: 60%;
+}

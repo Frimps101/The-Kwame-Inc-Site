@@ -1,0 +1,37 @@
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.box {
+    cursor: pointer;
+}
+
+.box .title {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: .8rem;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size2 {
+    font-size: 2rem;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+}

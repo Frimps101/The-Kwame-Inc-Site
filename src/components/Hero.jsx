@@ -11,7 +11,7 @@ const Hero = ({title, desc, imgFile}) => {
                 <Button btnText="Say Hello"/>
             </div>
             <div class="image">
-                <img src={ imgFile } alt="" />
+                <img src={ imgFile } alt="" className="float"/>
             </div>
         </section>
     </>

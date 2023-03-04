@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <header>
         <a href="#" className="logo">
-            <img src={Logo} alt="" />
+            {/* <img src={Logo} alt="" /> */}
             <h2>the kwame inc</h2>
         </a>
 
