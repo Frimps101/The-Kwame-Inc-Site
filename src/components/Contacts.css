@@ -10,10 +10,11 @@
 }
 
 .c-bg{
-    width: 20px;
+    width: 10px;
     height: 90%;
-    background: var(--gradient);
+    background: var(--primary);
     position: absolute;
+    left: 0;
 }
 
 .c-wrapper{
@@ -62,30 +63,36 @@ form{
 }
 
 input{
-    width: 60%;
+    width: 90%;
     height: 60px;
     border: none;
     border-bottom: 1px solid #000;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    background: none;
 }
 
 textarea{
-    width: 100%;
-    margin: 10px 0px;
+    width: 90%;
+    margin: 40px 0px;
     font-size: 14px;
     padding-left: 10px;
+    background: none;
+    border-bottom: 1px solid #000;
 }
 
 button{
+    width: 20%;
    border: none;
    padding: 15px;
-   background: var(--gradient);
+   background: var(--primary-dark);
    color: white;
    font-weight: 500;
    cursor: pointer;  
    text-transform: uppercase;
+   border-radius: 5px;
+   box-shadow: var(--box-shadow-darker);
 }
 
 button:hover{
