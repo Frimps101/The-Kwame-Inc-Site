@@ -19,27 +19,30 @@ const Contact = () => {
         <div className="contact-left">
           <h2>Get in touch with us</h2>
           <div className="contact-left-phone">
-          <i class="fa-solid fa-circle-phone"></i>
+            <h4>Phone:</h4>
             <span>+233 556 402 727</span>
           </div>
 
           <div className="contact-left-email">
-            <i class="fa-regular fa-envelope"></i>
+            <h4>Email:</h4>
             <span>mkk@gmail.com</span>
           </div>
 
           <div className="contact-left-social">
             <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
           </div>
         </div>
 
         <div className="contactright">
           <p className="contact-desc">
-            <b>What do you want to do? Get in touch.</b> We're always ready for
+            <b>What do you want to do? Get in touch.</b> 
+            <hr /> 
+            <small>We're always ready for
             your orders.
+            </small>
           </p>
           <form ref={formRef}>
             <input type="text" placeholder="Name" name="user_name" />

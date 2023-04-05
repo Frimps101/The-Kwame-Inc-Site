@@ -13,9 +13,31 @@
   top: -80px;
 }
 
+.contact-container h2{
+  font-size: 2.6rem;
+}
+
 .contact-left {
   flex-basis: 1;
   min-width: 50%;
+  
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.contact-left-email{
+  /* display: flex;
+  place-items: center; */
+}
+
+.contact-left-email i{
+  font-size: 2.2rem;
+}
+
+.contact-left-social i{
+  margin: 6px;
+  font-size: 2rem;
 }
 
 .contact-right {
@@ -48,6 +70,10 @@
 .contact-desc {
   font-size: 1.3rem;
   font-weight: 300;
+}
+
+.contact-desc b{
+  font-size: 1.6rem;
 }
 
 form {
