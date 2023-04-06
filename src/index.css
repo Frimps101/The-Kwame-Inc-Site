@@ -21,6 +21,11 @@ body {
   --transition-prop: color,width,background-color;
 }
 
+.section {
+  padding: 1rem 16%;
+}
+
+
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

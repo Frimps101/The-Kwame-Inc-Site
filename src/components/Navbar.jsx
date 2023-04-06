@@ -34,7 +34,7 @@ const Navbar = () => {
         >
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
-            <Link to="/pricing">Pricing</Link>
+            <Link to="/gallery">Gallery</Link>
             <Link to="/faqs">FAQs</Link> 
         </motion.nav>
         <Outlet />

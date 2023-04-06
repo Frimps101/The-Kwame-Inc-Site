@@ -1,34 +1,38 @@
-
-.arcade .image-grid div {
-  width: 25%;
-  height: 240px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.image-grid {
+.gallery {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  transition: 0.3s;
+  width: 100%;
 }
 
-.image01 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image02 { background-image: url('../../public/videos/pic2.jpeg'); }
-.image03 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image04 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image05 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image06 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image07 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image08 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image09 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image10 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image11 { background-image: url('../../public/videos/pic1.jpeg'); }
-.image12 { background-image: url('../../public/videos/pic1.jpeg'); }
+.gallery:hover .gallery__image  {
+  filter: grayscale(1);
+}
 
-@media screen and (max-width: 400px) {
-  .image-grid {
-    flex-direction: column;
-    flex-wrap: no-wrap;
-  }
-  .image-grid div { width: 100%; }
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* .gallery__image:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+} */
+
+.gallery__image:hover{
+  transform: scale(1.1);
+  filter: grayscale(0) !important;
+}
+
+/* .gallery__thumb{
+  position: relative;
+} */
+
+.gallery__image{
+  display: block;
+  width: 100%;
+  transition: .3s;
 }

@@ -1,116 +1,56 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHero from "../components/PageHero";
+import { faqs } from "../data";
 import "./FAQs.css";
 
 const FAQs = () => {
+  const [openQuestion, setOpenQuestion] = useState(null);
 
-  const faq = useRef(null);
-  const node = faq.current;
-
-  // console.log(faq)
-//   node.forEach(box => {
-//     box.onclick = () => {
-//         node.forEach(unbox => {
-//             unbox.classList.remove('active');
-//         })
-//         box.classList.add('active');
-//     }
-// })
-
+  const toggleQuestion = (index) => {
+    setOpenQuestion(openQuestion === index ? null : index);
+  }
   return (
-    <div>
+    <>
       <Navbar />
       <PageHero
         title="FAQs"
         content="We work tirelessly to provide you with the highest level of service, empowered by complete transparency and user involvement."
       />
 
-      <section class="spacer10" id="faq">
-        <div class="container">
-          <div class="row jc-between">
-            <div class="box-faq col6 col12-s">
-              <div class="box spacebottom5" ref={faq}>
-                <div class="title row jc-between">
-                  <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                  <i class="fas fa-angle-down size2 halfwhite"></i>
-                </div>
-                <p class="answer spacetop1 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates ratione ea officiis ad quam blanditiis, dignissimos
-                  adipisci suscipit nobis temporibus molestias fugiat quas
-                  possimus assumenda quod quae modi dolorem sed.
-                </p>
-              </div>
-              <div class="box spacebottom5">
-                <div class="title row jc-between">
-                  <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                  <i class="fas fa-angle-down size2 halfwhite"></i>
-                </div>
-                <p class="answer spacetop1 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates ratione ea officiis ad quam blanditiis, dignissimos
-                  adipisci suscipit nobis temporibus molestias fugiat quas
-                  possimus assumenda quod quae modi dolorem sed.
-                </p>
-              </div>
-              <div class="box spacebottom5">
-                <div class="title row jc-between">
-                  <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                  <i class="fas fa-angle-down size2 halfwhite"></i>
-                </div>
-                <p class="answer spacetop1 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates ratione ea officiis ad quam blanditiis, dignissimos
-                  adipisci suscipit nobis temporibus molestias fugiat quas
-                  possimus assumenda quod quae modi dolorem sed.
-                </p>
+      {/* <Header title="FAQs" /> */}
+      <div className="faq-section section">
+        <h2 className="faq-title">Frequently Asked Questions</h2>
+        <div className="faq-list">
+          {faqs.map((item, index) => (
+            <div
+              className={`faq-item ${openQuestion === index ? "open" : ""}`}
+              key={index}
+              onClick={() => toggleQuestion(index)}
+            >
+              <h3>
+                {item.question}{" "}
+                <span
+                  className={`arrow ${openQuestion === index ? "up" : "down"}`}
+                >
+                  &#9660;
+                </span>
+              </h3>
+              <div
+                className={`faq-answer ${
+                  openQuestion === index ? "visible" : ""
+                }`}
+              >
+                <p>{item.answer}</p>
               </div>
             </div>
-            <div class="box-faq col6 col12-s">
-              <div class="box spacebottom5">
-                <div class="title row jc-between">
-                  <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                  <i class="fas fa-angle-down size2 halfwhite"></i>
-                </div>
-                <p class="answer spacetop1 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates ratione ea officiis ad quam blanditiis, dignissimos
-                  adipisci suscipit nobis temporibus molestias fugiat quas
-                  possimus assumenda quod quae modi dolorem sed.
-                </p>
-              </div>
-              <div class="box spacebottom5">
-                <div class="title row jc-between">
-                  <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                  <i class="fas fa-angle-down size2 halfwhite"></i>
-                </div>
-                <p class="answer spacetop1 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates ratione ea officiis ad quam blanditiis, dignissimos
-                  adipisci suscipit nobis temporibus molestias fugiat quas
-                  possimus assumenda quod quae modi dolorem sed.
-                </p>
-              </div>
-              <div class="box spacebottom5">
-                <div class="title row jc-between">
-                  <h3 class="size2 halfwhite">Lorem ipsum ipsum?</h3>
-                  <i class="fas fa-angle-down size2 halfwhite"></i>
-                </div>
-                <p class="answer spacetop1 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates ratione ea officiis ad quam blanditiis, dignissimos
-                  adipisci suscipit nobis temporibus molestias fugiat quas
-                  possimus assumenda quod quae modi dolorem sed.
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
-      </section>
+      </div>
+
       <Footer />
-    </div>
+    </>
   );
 };
 

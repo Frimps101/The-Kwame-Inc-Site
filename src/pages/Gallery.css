@@ -1,3 +1,4 @@
-/* .gal_container h2{
-    display: block;
-} */
+.gal_container{
+    display: flex;
+    flex-direction: column;
+}
