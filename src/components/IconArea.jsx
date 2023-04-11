@@ -12,15 +12,15 @@ const IconArea = () => {
       </div>
       <div className="icon_imgs">
         <div className="imgs">
-          <i class="fa-sharp fa-solid fa-tags"></i>
+          <i class="fa-sharp fa-solid fa-tags iconArea"></i>
           <p className="icon_txt">Honest pricing you cannot deny</p>
         </div>
         <div className="imgs">
-          <i class="fa-solid fa-images"></i>
+          <i class="fa-solid fa-images iconArea"></i>
           <p className="icont_txt">Crafted using high-quality materials</p>
         </div>
         <div className="imgs">
-          <i class="fa-solid fa-truck-fast"></i>
+          <i class="fa-solid fa-truck-fast iconArea"></i>
           <p className="icont_txt">Delivered to your doorstep.</p>
         </div>
       </div>

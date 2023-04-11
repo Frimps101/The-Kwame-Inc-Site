@@ -1,41 +1,40 @@
-.icons{
-    padding: 2rem 9%;
-    margin-top: 4rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.icons {
+  padding: 2rem 9%;
+  margin-top: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.icon_head{
-    width: 80%;
-    margin: auto;
+.icon_head {
+  width: 80%;
+  margin: auto;
 }
 
-.icon-title{
-    color: var(--dark);
+.icon-title {
+  color: var(--dark);
 }
 
-.icon_head p{
-    font-size: 2.8rem;
+.icon_head p {
+  font-size: 2.8rem;
 }
 
-
-.icon_imgs{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* margin-top: 2rem; */
+.icon_imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 2rem; */
 }
 
-i{
-    font-size: 2.6rem;
-    color: var(--primary);
-    cursor: pointer;
-    transition: (--transition);
-    transition-property: (--transition-prop);
-    margin-bottom: 15px;
+.iconArea {
+  font-size: 2.6rem;
+  color: var(--primary);
+  cursor: pointer;
+  transition: (--transition);
+  transition-property: (--transition-prop);
+  margin-bottom: 15px;
 }
 
-i:hover{
-    color: var(--primary-dark);
+.iconArea:hover {
+  color: var(--primary-dark);
 }
