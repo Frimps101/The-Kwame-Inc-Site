@@ -79,3 +79,13 @@ export const faqs = [
       "To measure the size of your artwork for framing, measure the width and height of the artwork, and add a few extra millimeters or inches to ensure a proper fit.",
   }
 ];
+
+
+export const vids = [
+  {
+    id: 1,
+    img: "../images/collage.png",
+    title: "FRAME ANYTHING",
+    desc: "Whether it’s something from your closet or a photo on your phone, we can frame it",
+  }
+];
