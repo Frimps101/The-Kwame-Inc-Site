@@ -83,7 +83,7 @@ textarea{
 }
 
 button{
-    width: 20%;
+   width: 20%;
    border: none;
    padding: 15px;
    background: var(--primary-dark);
@@ -139,5 +139,15 @@ button:hover{
 
     button{
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 959px){
+    .c-wrapper{
+        display: block;
+    }
+
+    .c-right__btn{
+        width: 30%;
     }
 }

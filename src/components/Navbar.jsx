@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link to="/faqs">FAQs</Link>
         </ul>
 
-        <button
+        <div
           className="toggle-menu"
           aria-label="Toggle Menu"
           onClick={() => setShowMenu(!showMenu)}
@@ -46,7 +46,7 @@ const Navbar = () => {
           <span className="burger">
             <i class="fa-solid fa-bars"></i>
           </span>
-        </button>
+        </div>
       </motion.nav>
       <Outlet />
     </header>

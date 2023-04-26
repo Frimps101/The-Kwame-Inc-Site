@@ -113,3 +113,23 @@
 .p-table--body tr:last-of-type {
     border-bottom: 2px solid var(--primary-dark);
 }
+
+
+@media (max-width: 959px) {
+    .p-card{
+        width: 85%;
+        margin: auto;
+    }
+
+    .p-right--title, .p-right--subtitle{
+        display: none;
+    }
+    
+    .p-left{
+        display: none;
+    }
+
+    .p-right--prices{
+        text-align: center;
+    }
+  }

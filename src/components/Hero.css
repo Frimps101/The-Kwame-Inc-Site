@@ -52,17 +52,45 @@ section {
   }
 }
 
+.content-btn{
+  background: var(--primary);
+  padding: 1rem 15%;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  border-radius: 4px;
+
+  transition: var(--transition);
+  transition-property: var(--transition-prop);
+}
+
+.content-btn a{
+  color: white;
+}
+
 @media (max-width: 959px) {
   .content {
     display: block;
   }
 
   .content h3 {
-    font-size: 3rem;
+    font-size: 4rem;
+    text-align: center;
   }
   
   .content p {
     width: 55%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .content-btn{
+    width: 50%;
+    margin: auto;
   }
 
   .image {

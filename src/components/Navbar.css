@@ -46,10 +46,13 @@ header{
     align-items: center;
 }
 
+button{
+    background-color: none;
+}
+
 .toggle-menu {
     display: none;
     border: none;
-    background-color: none;
     cursor: pointer;
 
     width: 40px;
@@ -61,7 +64,8 @@ header{
 }
 
 .burger i{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    background-color: none;
 }
 
 .navbar a{
@@ -86,7 +90,7 @@ header{
 @media (max-width: 768px) {
 
     .logo h2{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
     .menu {
         display: none;

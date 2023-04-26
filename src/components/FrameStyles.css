@@ -41,3 +41,9 @@
   text-transform: uppercase;
   border-radius: 5px;
 }
+
+@media (max-width: 959px) {
+  .button {
+    width: 40%;
+  }
+}

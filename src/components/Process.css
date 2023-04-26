@@ -1,6 +1,5 @@
 .process{
-    height: 100vh;
-    gap: 1rem;
+    height: 70vh;
     margin-top: 5rem;
 }
 
@@ -54,4 +53,14 @@
     position: absolute;
     left: -25px;
     top: 120px;
+}
+
+@media screen and (max-width: 959px) {
+    .process{
+        display: block;
+    }
+
+    .process_img{
+        display: none;
+    }
 }

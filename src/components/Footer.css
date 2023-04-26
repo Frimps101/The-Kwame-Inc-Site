@@ -61,3 +61,10 @@
     height: 34px;
     margin-right: 10px;
 }
+
+@media (max-width: 959px){
+    .footer{
+        margin-top: 25rem;
+        display: block;
+    }
+}

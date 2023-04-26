@@ -38,3 +38,13 @@
 .iconArea:hover {
   color: var(--primary-dark);
 }
+
+@media (max-width: 959px) {
+  .icon_imgs {
+    display: block;
+  }
+
+  .imgs{
+    margin-bottom: 20px;
+  }
+}
