@@ -89,3 +89,30 @@ export const vids = [
     desc: "Whether it’s something from your closet or a photo on your phone, we can frame it",
   }
 ];
+
+
+export const testimonials = [
+  {
+    id: 1,
+    imgLink: "https://images.pexels.com/photos/6000065/pexels-photo-6000065.jpeg?auto=compress&cs=tinysrgb&w=400",
+    testimony: "I recently had my artwork framed by The Kwame Inc Frames, and I couldn't be happier with the result. The attention to detail and craftsmanship are exceptional. My piece looks stunning, and the frame perfectly complements the artwork.",
+    contributor: "Josephine F Kwakye",
+    occupation: "Software Developer"
+  },
+
+  {
+    id: 2,
+    imgLink: "https://images.pexels.com/photos/5792641/pexels-photo-5792641.jpeg?auto=compress&cs=tinysrgb&w=400",
+    testimony: "I entrusted them with framing a family portrait, and they exceeded my expectations.The team helped me choose the ideal frame that enhanced the photograph beautifully and the final product is now proudly displayed in our home. Thank you, The Kwame Inc Frames!",
+    contributor: "Michael Reynolds",
+    occupation: "Entrepreneur"
+  },
+
+  {
+    id: 3,
+    imgLink: "https://images.pexels.com/photos/5615665/pexels-photo-5615665.jpeg?auto=compress&cs=tinysrgb&w=420&h=400&dpr=1",
+    testimony: "The team understood the sentimental value of the artwork I brought in and treated it with utmost care. They provided valuable suggestions for frame selection, and the end result was breathtaking. I am grateful for their expertise and professionalism.",
+    contributor: "Abena Mary",
+    occupation: "Business Woman"
+  }
+]

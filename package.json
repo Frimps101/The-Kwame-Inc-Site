@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.1.4",
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.0.1",
@@ -10,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.6.1",
     "framer-motion": "^9.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

@@ -1,69 +1,81 @@
 import React from "react";
 import './Pricing.css';
 
+import { Card, Typography } from "@material-tailwind/react";
+ 
+const TABLE_HEAD = ["Size", "Prices"];
+ 
+const TABLE_ROWS = [
+  {
+    sizes: "12x16",
+    prices: "130gh"
+  },
+  {
+    sizes: "15x19",
+    prices: "180gh"
+  },
+  {
+    sizes: "16x20",
+    prices: "190gh"
+  },
+  {
+    sizes: "20x24",
+    prices: "270gh"
+  },
+  {
+    sizes: "20x30",
+    prices: "350gh"
+  },
+  {
+    sizes: "24x36",
+    prices: "420gh"
+  },
+];
 
 const Pricing = () => {
   return (
-    <section className="p-container">
-      <h2 className="p-title">Pricing Details</h2>
-      <div className="p-card">
-        <div className="p-left">
-          <h3 className="p-left--title">
-            <span>Affordable</span> frames for priceless memories.
-          </h3>
-          {/* <p className="p-left--text">
-            We offer a wide range of high-quality frames in various sizes and styles to suit your needs.
-          </p> */}
-          <div className="p-left--img">
-            <img src="/images/pricing-img.png" alt="" />
-          </div>
-        </div>
-        <div className="p-right">
-          <h3 className="p-right--title">Affordable Prices</h3>
-          <p className="p-right--subtitle">
-            Discover affordable prices that frame your 
-            <span>memories perfectly!</span>
-          </p>
+    <Card className="section overflow-scroll h-full w-full drop-shadow-2xl">
+      <h3 className="text-center">Pricing</h3>
+      <table className="w-full min-w-max table-auto text-left ">
+        <thead>
+          <tr>
+            {TABLE_HEAD.map((head) => (
+              <th key={head} className="border-b border-blue-gray-100 bg-blue-gray-50 p-4">
+                <Typography
+                  variant="small"
+                  color="blue-gray"
+                  className="font-normal leading-none opacity-70"
+                >
+                  {head}
+                </Typography>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {TABLE_ROWS.map(({ sizes, prices }, index) => {
+            const isLast = index === TABLE_ROWS.length - 1;
+            const classes = isLast ? "p-4" : "p-4 border-b border-blue-gray-50";
+ 
+            return (
+              <tr key={sizes}>
+                <td className={classes}>
+                  <Typography variant="small" color="blue-gray" className="font-normal">
+                    {sizes}
+                  </Typography>
+                </td>
+                <td className={`${classes} bg-blue-gray-50/50`}>
+                  <Typography variant="small" color="blue-gray" className="font-normal">
+                    {prices}
+                  </Typography>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </Card>
 
-          <div className="p-right--prices">
-            <table className="p-table">
-                <thead className="p-table--head">
-                    <tr>
-                        <th className="p-table--head-item">Sizes</th>
-                        <th className="p-table--head-item">Prices</th>
-                    </tr>
-                </thead>
-                <tbody className="p-table--body">
-                    <tr className="p-active">
-                        <td>12x16</td>
-                        <td>130gh</td>
-                    </tr>
-                    <tr>
-                        <td>15x19</td>
-                        <td>180gh</td>
-                    </tr>
-                    <tr>
-                        <td>16x20</td>
-                        <td>190gh</td>
-                    </tr>
-                    <tr>
-                        <td>20x24</td>
-                        <td>270gh</td>
-                    </tr>
-                    <tr>
-                        <td>20x30</td>
-                        <td>350gh</td>
-                    </tr>
-                    <tr>
-                        <td>24x36</td>
-                        <td>420gh</td>
-                    </tr>
-                </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
   );
 };
 
