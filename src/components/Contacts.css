@@ -105,6 +105,16 @@ button:hover{
     font-size: 1.8rem;
 }
 
+@media (max-width: 959px){
+    .c-wrapper{
+        display: block;
+    }
+
+    .c-right__btn{
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 480px){
     .c-wrapper{
         flex-direction: column;
@@ -121,33 +131,15 @@ button:hover{
     }
 
     .c-desc{
-        display: none;
+        display: block;
+        margin-top: 3rem;
     }
 
-    form{
-        margin-top: 0px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    input{
-        width: 35%;
-        height: 40px;
-        margin: 10px;
-        margin-left: 0px;
+    .c-input{
+        width: 100%;
     }
 
     button{
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 959px){
-    .c-wrapper{
-        display: block;
-    }
-
-    .c-right__btn{
-        width: 30%;
+        margin-top: 8px;
     }
 }

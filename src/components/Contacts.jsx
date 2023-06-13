@@ -28,9 +28,9 @@ const Contacts = () => {
             your orders.
           </p>
           <form ref={formRef}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
+            <input className="c-input" type="text" placeholder="Name" name="user_name" />
+            <input className="c-input" type="text" placeholder="Subject" name="user_subject" />
+            <input className="c-input" type="text" placeholder="Email" name="user_email" />
             <textarea name="message" rows="5 " placeholder="Message"></textarea>
             <button className="c-right__btn">Submit</button>
             <p className="c-thanks">{done && "Thank you for contacting us."}</p>

@@ -12,9 +12,11 @@ section {
 }
 
 .content h3 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  width: 80%;
   font-weight: 900;
-  color: var(--dark);
+  color: var(--primary)
+  /* color: var(--dark); */
 }
 
 .content p {
@@ -77,12 +79,13 @@ section {
   }
 
   .content h3 {
-    font-size: 4rem;
-    text-align: center;
+   text-align: center;
+    width: 50%;
+    margin: auto;
   }
   
   .content p {
-    width: 55%;
+    /* width: 55%; */
     text-align: center;
     margin: auto;
     margin-bottom: 2rem;
@@ -95,5 +98,16 @@ section {
 
   .image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    display: block;
+  }
+  
+  .content h3 {
+    font-size: 3rem;
+    margin: auto;
   }
 }
