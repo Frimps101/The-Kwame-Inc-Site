@@ -1,5 +1,5 @@
 .wall {
-  margin-top: 5rem;
+  /* margin-top: 10rem; */
   background-image: url(../../public/images/wall_frame.jpg);
   height: 80vh;
 
@@ -14,7 +14,7 @@
   background-attachment: fixed;
 
   background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.78);
 }
 
 .wall h3 {

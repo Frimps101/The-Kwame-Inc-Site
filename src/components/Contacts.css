@@ -4,21 +4,21 @@
 }
 
 .c{
-    height: 90vh;
+    height: 100vh;
     position: relative;
     margin-top: 5rem;
 }
 
 .c-bg{
-    width: 10px;
-    height: 90%;
+    width: 8px;
+    height: 100%;
     background: var(--primary);
     position: absolute;
     left: 0;
 }
 
 .c-wrapper{
-    padding: 50px;
+    /* padding: 50px; */
     display: flex;
 }
 
