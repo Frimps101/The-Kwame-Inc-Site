@@ -5,7 +5,7 @@ const IconArea = () => {
   return (
     <section className="icons">
       <div className="icon_head">
-        <h1 className="icon-title">
+        <h1 className="icon-title text-3xl font-bold text-center mb-[3rem]">
           Whether it’s something from your closet or a photo on your phone, we
           make it last.
         </h1>
