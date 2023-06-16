@@ -27,10 +27,10 @@ body {
 }
 
 .section {
-  padding: 1rem 16%;
+  padding: 1rem 8%;
 }
 
-@media (max-width: 959px) {
+/* @media (max-width: 959px) {
   .section {
     padding: 1rem 10%;
   }
@@ -40,4 +40,4 @@ body {
   .section {
     padding: 1rem 10%;
   }
-}
+} */

@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import PageHero from "../components/PageHero";
 import "./Contact.css";
@@ -9,7 +9,7 @@ const Contact = () => {
   const formRef = useRef();
   return (
     <div>
-      <Navbar />
+      <Nav />
       <PageHero
         title="Contact"
         content="We work tirelessly to provide you with the highest level of service, empowered by complete transparency and user involvement."

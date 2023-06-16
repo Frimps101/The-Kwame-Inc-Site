@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import './About.css';
 import PageHero from '../components/PageHero'
@@ -8,7 +8,7 @@ import PageHero from '../components/PageHero'
 const About = () => {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <PageHero 
         title="About Us"
         content="We work tirelessly to provide you with the highest level of service, empowered by complete transparency and user involvement."

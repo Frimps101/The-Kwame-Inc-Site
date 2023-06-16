@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar';
+import Nav from '../components/Nav';
 // import Slider from '../components/Slider';
 import Banner from '../components/Banner';
 // import Gallery from '../components/Gallery';
@@ -17,7 +17,7 @@ import Copyright from '../components/Copyright';
 const Home = () => {
   return (
     <div>
-      <Navbar/>
+      <Nav/>
       <Banner/>
       <IconArea/>
       <Pricing/>
@@ -25,7 +25,7 @@ const Home = () => {
       <FrameStyles/>
       <Offer/>
       <Process/>
-      <Contacts/>
+      {/* <Contacts/> */}
       <Testimonial />
       <Footer />
       <Copyright />
