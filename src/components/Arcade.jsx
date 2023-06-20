@@ -4,6 +4,8 @@ import "./Arcade.css";
 const Arcade = () => {
   return (
     <>
+      <h3 className="mt-[6rem] text-3xl font-bold text-center my-4">Welcome to Our Picture Gallery</h3>
+      <p className="text-center mb-6">Browse through our stunning collection of photos and get inspired.</p>
       <div className="gallery section">
         <div className="gallery__column">
           <figure className="gallery__thumb">
