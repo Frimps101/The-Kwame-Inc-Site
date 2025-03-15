@@ -38,8 +38,9 @@
   background: var(--primary-dark);
   color: white;
   cursor: pointer;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border-radius: 5px;
+  place-items: center;
 }
 
 @media (max-width: 959px) {

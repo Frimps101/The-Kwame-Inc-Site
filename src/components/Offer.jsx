@@ -10,8 +10,8 @@ const Offer = () => {
         </div>
         <div className="wrapper_imgs">
             <img src="/images/offer1.jpg" alt="" className="imgs_item1" />
-            <img src="/images/offer2.jpg" alt="" className="imgs_item2" />
-            <img src="/images/offer3.jpg" alt="" className="imgs_item3" />
+            <img src="/images/offer4.jpg" alt="" className="imgs_item2" />
+            <img src="/images/offer5.jpg" alt="" className="imgs_item3" />
         </div>
         <div className="wrapper_txt">
             <p>
