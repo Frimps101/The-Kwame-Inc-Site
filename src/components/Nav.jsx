@@ -81,7 +81,7 @@ const Nav = () => {
         <div className="-mt-5 -mb-5 section flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
-            href="#"
+            href="/"
             className="cursor-pointer py-1.5 font-medium"
           >
             The Kwame Inc

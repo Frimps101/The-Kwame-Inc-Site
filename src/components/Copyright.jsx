@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./Copyright.css"
 
 const Copyright = () => {
@@ -9,8 +10,8 @@ const Copyright = () => {
                 <p>&copy; The Kwame Inc</p>
             </div>
             <div className="c_others">
-                <a href="3">Terms of Service</a>
-                <a href="#">Privacy policy</a>
+                <Link to="/tos">Terms of Service</Link>
+                <Link to="/tos">Privacy policy</Link>
             </div>
         </section>
     </div>

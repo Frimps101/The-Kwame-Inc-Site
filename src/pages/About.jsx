@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </div>
 
-        <section className="owner">
+        <section className="owner section">
           <img src="/images/Nana.jpg" alt="" />
           <div className="title">
             <h2>Founder & CEO</h2>

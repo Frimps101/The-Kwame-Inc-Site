@@ -116,3 +116,41 @@ export const testimonials = [
     occupation: "Business Woman"
   }
 ]
+
+export const tos = [
+  {
+    id: 1,
+    title: "General Terms",
+    body: "By using our services, you confirm that you are at least 18 years old or have parental/guardian consent.We reserve the right to update these terms at any time without prior notice. Continued use of our services after changes to these terms constitutes acceptance of the updated terms."
+  },
+
+  {
+    id: 2,
+    title: "Products & Orders",
+    body: "We strive to display accurate product information, but slight variations in color and dimensions may occur. All orders are subject to availability. If a product is out of stock, we will notify you and provide alternatives or a refund. We reserve the right to cancel orders suspected of fraudulent activity."
+  },
+
+  {
+    id: 3,
+    title: "Pricing & Payment",
+    body: "Prices are listed in cedis and are subject to change without notice. Payment must be made in full before orders are processed. We accept payments through mobile money, cash etc. Any applicable taxes or fees will be added to your total at checkout."
+  },
+
+  {
+    id: 4,
+    title: "Shipping & Delivery",
+    body: "We aim to process and ship orders within 2 weeks. Delivery times may vary based on location and carrier delays. Customers are responsible for providing accurate shipping information. We are not liable for lost packages due to incorrect addresses. International shipping may be subject to customs duties and taxes, which are the buyer’s responsibility."
+  },
+
+  {
+    id: 5,
+    title: "Returns & Refunds",
+    body: "We accept returns within [Number] days of purchase, provided the item is in its original condition. Customers are responsible for return shipping costs unless the item is defective or incorrect. Refunds will be issued to the original payment method once the return is processed."
+  },
+
+  {
+    id: 6,
+    title: "Warranty & Liability",
+    body: "Our frames are crafted with care, but we do not provide warranties beyond what is required by law. We are not liable for damage caused by misuse, accidents, or improper handling of our products."
+  }
+]

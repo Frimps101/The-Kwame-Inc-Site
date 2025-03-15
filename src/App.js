@@ -9,6 +9,7 @@ import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import Error from './pages/Error';
+import TermsOfService from './pages/TermsOfService';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="contact" element={ <Contact/> } />
         <Route path="gallery" element={ <Gallery/> } />
         <Route path="faqs" element={ <FAQs/> } />
+        <Route path="tos" element={ <TermsOfService/> } />
         <Route path="*" element={ <Error/> } />
       </Routes>
     </motion.div>
