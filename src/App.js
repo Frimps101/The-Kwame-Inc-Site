@@ -8,6 +8,7 @@ import FAQs from './pages/FAQs';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
+import Photograhy from './pages/Photography';
 import Error from './pages/Error';
 import TermsOfService from './pages/TermsOfService';
 
@@ -25,6 +26,8 @@ function App() {
         <Route path="pricing" element={ <Pricing/> } />
         <Route path="contact" element={ <Contact/> } />
         <Route path="gallery" element={ <Gallery/> } />
+        <Route path="photography" element={ <Photograhy/> } />
+        {/* <Route path="videography" element={ <Videography/> } /> */}
         <Route path="faqs" element={ <FAQs/> } />
         <Route path="tos" element={ <TermsOfService/> } />
         <Route path="*" element={ <Error/> } />
