@@ -1,0 +1,98 @@
+/* Floating animation for banner images */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes floatSlowReverse {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+/* Apply different floating animations to different columns */
+.banner-image-1 {
+  animation: float 3s ease-in-out infinite;
+}
+
+.banner-image-2 {
+  animation: floatReverse 4s ease-in-out infinite;
+}
+
+.banner-image-3 {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.banner-image-4 {
+  animation: floatSlowReverse 3.5s ease-in-out infinite;
+}
+
+.banner-image-5 {
+  animation: float 4.5s ease-in-out infinite;
+}
+
+.banner-image-6 {
+  animation: floatReverse 3.8s ease-in-out infinite;
+}
+
+.banner-image-7 {
+  animation: floatSlow 4.2s ease-in-out infinite;
+}
+
+.banner-image-8 {
+  animation: floatSlowReverse 3.2s ease-in-out infinite;
+}
+
+/* Add slight delay to create wave effect */
+.banner-image-2 {
+  animation-delay: 0.5s;
+}
+
+.banner-image-3 {
+  animation-delay: 1s;
+}
+
+.banner-image-4 {
+  animation-delay: 1.5s;
+}
+
+.banner-image-5 {
+  animation-delay: 0.3s;
+}
+
+.banner-image-6 {
+  animation-delay: 0.8s;
+}
+
+.banner-image-7 {
+  animation-delay: 1.3s;
+}
+
+.banner-image-8 {
+  animation-delay: 1.8s;
+}

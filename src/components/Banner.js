@@ -1,4 +1,5 @@
 import React from "react";
+import "./Banner.css";
 
 const Banner = () => {
   return (
@@ -23,14 +24,14 @@ const Banner = () => {
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                   <div className="flex items-center space-x-6 lg:space-x-8">
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100 banner-image-1">
                         <img
                           src="https://images.pexels.com/photos/11369188/pexels-photo-11369188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg banner-image-2">
                         <img
                           src="https://images.unsplash.com/photo-1679679195912-29d0190805ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8YWVzdGhldGljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
                           alt=""
@@ -39,21 +40,21 @@ const Banner = () => {
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg banner-image-3">
                         <img
                           src="https://images.unsplash.com/photo-1594383169997-250ec3fdd48d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg banner-image-4">
                         <img
                           src="https://images.unsplash.com/photo-1543487945-139a97f387d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg banner-image-5">
                         <img
                           src="https://images.pexels.com/photos/4262414/pexels-photo-4262414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           alt=""
@@ -62,14 +63,14 @@ const Banner = () => {
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg banner-image-6">
                         <img
                           src="https://images.unsplash.com/photo-1530634962287-1aa57a5e70fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg banner-image-7">
                         <img
                           src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=658&q=80"
                           alt=""

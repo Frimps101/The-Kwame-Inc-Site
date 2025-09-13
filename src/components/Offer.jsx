@@ -3,7 +3,7 @@ import './Offer.css'
 
 const Offer = () => {
   return (
-    <div className='wrapper'>
+    <div className='wrapper section'>
         <div className="wrapper_header">
             <h3>Frame your life</h3>
             <p>We have all you'll ever need</p>

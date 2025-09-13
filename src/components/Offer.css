@@ -1,5 +1,4 @@
 .wrapper{
-    padding: 2rem 9%;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -23,7 +22,7 @@
 
 .wrapper_imgs{
     display: flex;
-    /* width: 100%; */
+    width: 100%;
     gap: 10px;
     margin-bottom: 1.5rem;
 }
@@ -46,8 +45,7 @@
 }
 
 .wrapper_txt{
-    width: 80%;
-    margin: auto;
+    width: 100%;
 }
 
 .wrapper_txt p{

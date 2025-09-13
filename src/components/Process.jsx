@@ -1,5 +1,6 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import { HiBookmark } from "react-icons/hi";
+import "./Process.css";
 
 const Process = () => {
   return (
@@ -45,7 +46,7 @@ const Process = () => {
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            className="w-[30rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[24rem]"
+            className="process-image w-[30rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[24rem]"
             src="/images/whatsapp_order_2.png"
             alt=""
           />
@@ -76,7 +77,14 @@ const Process = () => {
                   </span>
                 </li>
               </ul>
-              
+              <a
+                href="https://api.whatsapp.com/send?phone=233542730363"
+                className="inline-block rounded-md border mt-10 border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Order Now
+              </a>
             </div>
           </div>
         </div>

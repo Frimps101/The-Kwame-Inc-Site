@@ -58,6 +58,16 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
+        <a href="/photography" className="flex items-center">
+          Photography
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
         <a href="/gallery" className="flex items-center">
           Gallery
         </a>
@@ -93,7 +103,7 @@ const Nav = () => {
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Pricing</span>
+              <a href="pricing">Pricing</a>
             </Button>
             <IconButton
               variant="text"
@@ -137,7 +147,7 @@ const Nav = () => {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="">
-            <span>Pricing</span>
+            <a href="pricing">Pricing</a>
           </Button>
         </MobileNav>
       </Navbar>

@@ -13,6 +13,7 @@ const Gallery = () => {
       <PageHero
         title="Gallery"
         content="We work tirelessly to provide you with the highest level of service, empowered by complete transparency and user involvement."
+        class="mb-10"
       />
 
       <section className="gal_container">
