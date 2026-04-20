@@ -1,12 +1,34 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import PageHero from "../components/PageHero";
 import "./Contact.css";
-import { useRef } from "react";
 
 const Contact = () => {
   const formRef = useRef();
+  const [status, setStatus] = useState(null); // null | "sending" | "success" | "error"
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus("sending");
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(() => {
+        setStatus("success");
+        formRef.current.reset();
+      })
+      .catch(() => {
+        setStatus("error");
+      });
+  };
+
   return (
     <div>
       <Nav />
@@ -29,30 +51,35 @@ const Contact = () => {
           </div>
 
           <div className="contact-left-social">
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-facebook-f"></i>
           </div>
         </div>
 
         <div className="contactright">
           <p className="contact-desc">
-            <b>What do you want to do? Get in touch.</b> 
-            <hr /> 
-            <small>We're always ready for
-            your orders.
-            </small>
+            <b>What do you want to do? Get in touch.</b>
+            <hr />
+            <small>We're always ready for your orders.</small>
           </p>
-          <form ref={formRef}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea name="message" rows="5 " placeholder="Message"></textarea>
-            <button>Submit</button>
+          <form ref={formRef} onSubmit={handleSubmit}>
+            <input type="text" placeholder="Name" name="user_name" required />
+            <input type="text" placeholder="Subject" name="user_subject" required />
+            <input type="email" placeholder="Email" name="user_email" required />
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            <button type="submit" className="contact-btn" disabled={status === "sending"}>
+              {status === "sending" ? "Sending..." : "Submit"}
+            </button>
+            {status === "success" && (
+              <p className="contact-feedback success">Thank you! Your message has been sent.</p>
+            )}
+            {status === "error" && (
+              <p className="contact-feedback error">Something went wrong. Please try again.</p>
+            )}
           </form>
         </div>
-
       </div>
       <Footer />
     </div>

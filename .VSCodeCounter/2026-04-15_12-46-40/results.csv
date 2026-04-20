@@ -1,0 +1,73 @@
+"filename", "language", "Markdown", "JavaScript", "JSON", "XML", "PostCSS", "JavaScript JSX", "HTML", "comment", "blank", "total"
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/README.md", "Markdown", 38, 0, 0, 0, 0, 0, 0, 0, 33, 71
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/package-lock.json", "JSON", 0, 0, 30941, 0, 0, 0, 0, 0, 1, 30942
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/package.json", "JSON", 0, 0, 52, 0, 0, 0, 0, 0, 1, 53
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/public/index.html", "HTML", 0, 0, 0, 0, 0, 0, 20, 23, 1, 44
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/public/manifest.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 1, 26
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/App.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 5, 0, 5
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/App.js", "JavaScript", 0, 36, 0, 0, 0, 0, 0, 1, 3, 40
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Arcade.css", "PostCSS", 0, 0, 0, 0, 25, 0, 0, 7, 7, 39
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Arcade.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 97, 0, 0, 14, 111
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Banner.css", "PostCSS", 0, 0, 0, 0, 77, 0, 0, 3, 19, 99
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Banner.js", "JavaScript", 0, 98, 0, 0, 0, 0, 0, 0, 4, 102
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Button.css", "PostCSS", 0, 0, 0, 0, 17, 0, 0, 1, 2, 20
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Button.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 7, 0, 0, 3, 10
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/ComingSoon.css", "PostCSS", 0, 0, 0, 0, 50, 0, 0, 2, 9, 61
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/ComingSoon.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 20, 0, 0, 3, 23
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Contacts.css", "PostCSS", 0, 0, 0, 0, 121, 0, 0, 1, 23, 145
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Contacts.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 67, 0, 0, 6, 73
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Copyright.css", "PostCSS", 0, 0, 0, 0, 7, 0, 0, 0, 1, 8
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Copyright.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 2, 21
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Footer.css", "PostCSS", 0, 0, 0, 0, 49, 0, 0, 7, 14, 70
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 50, 0, 0, 3, 53
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/FrameStyles.css", "PostCSS", 0, 0, 0, 0, 42, 0, 0, 1, 7, 50
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/FrameStyles.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Gallery.css", "PostCSS", 0, 0, 0, 0, 49, 0, 0, 0, 11, 60
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Gallery.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 31, 0, 0, 2, 33
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Hero.css", "PostCSS", 0, 0, 0, 0, 94, 0, 0, 2, 18, 114
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Hero.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 21, 0, 1, 2, 24
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/IconArea.css", "PostCSS", 0, 0, 0, 0, 70, 0, 0, 4, 12, 86
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/IconArea.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 33, 0, 0, 3, 36
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Nav.css", "PostCSS", 0, 0, 0, 0, 101, 0, 0, 2, 27, 130
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Nav.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 152, 0, 1, 7, 160
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Offer.css", "PostCSS", 0, 0, 0, 0, 49, 0, 0, 0, 12, 61
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Offer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 23, 0, 0, 3, 26
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/PageHero.css", "PostCSS", 0, 0, 0, 0, 30, 0, 0, 0, 5, 35
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/PageHero.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 1, 3, 19
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Pricing.css", "PostCSS", 0, 0, 0, 0, 107, 0, 0, 1, 27, 135
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Pricing.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 53, 0, 0, 11, 64
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Process.css", "PostCSS", 0, 0, 0, 0, 65, 0, 0, 0, 14, 79
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Process.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 88, 0, 6, 3, 97
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Reviews.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Reviews.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Slider.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Slider.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 12, 0, 0, 5, 17
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Testimonial.js", "JavaScript", 0, 58, 0, 0, 0, 0, 0, 0, 9, 67
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Videos.css", "PostCSS", 0, 0, 0, 0, 83, 0, 0, 0, 16, 99
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Videos.js", "JavaScript", 0, 49, 0, 0, 0, 0, 0, 1, 6, 56
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/data.js", "JavaScript", 0, 158, 0, 0, 0, 0, 0, 0, 21, 179
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/index.css", "PostCSS", 0, 0, 0, 0, 26, 0, 0, 11, 7, 44
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/index.js", "JavaScript", 0, 13, 0, 0, 0, 0, 0, 3, 4, 20
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/logo.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/About.css", "PostCSS", 0, 0, 0, 0, 33, 0, 0, 0, 5, 38
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/About.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 47, 0, 1, 5, 53
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Contact.css", "PostCSS", 0, 0, 0, 0, 138, 0, 0, 3, 29, 170
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Contact.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 80, 0, 0, 10, 90
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Error.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Error.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 34, 0, 0, 3, 37
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/FAQs.css", "PostCSS", 0, 0, 0, 0, 43, 0, 0, 0, 9, 52
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/FAQs.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 51, 0, 1, 6, 58
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Gallery.css", "PostCSS", 0, 0, 0, 0, 4, 0, 0, 0, 0, 4
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Gallery.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 25, 0, 0, 5, 30
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Home.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Home.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 28, 0, 5, 3, 36
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Photography.css", "PostCSS", 0, 0, 0, 0, 50, 0, 0, 2, 8, 60
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Photography.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 27, 0, 1, 6, 34
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Pricing.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Pricing.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 63, 0, 0, 11, 74
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/TermsOfService.css", "PostCSS", 0, 0, 0, 0, 10, 0, 0, 0, 2, 12
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/TermsOfService.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 35, 0, 0, 3, 38
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/reportWebVitals.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 2, 14
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/setupTests.js", "JavaScript", 0, 1, 0, 0, 0, 0, 0, 4, 1, 6
+"/Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/tailwind.config.js", "JavaScript", 0, 10, 0, 0, 0, 0, 0, 1, 0, 11
+"Total", "-", 38, 435, 31018, 1, 1340, 1095, 20, 102, 501, 34550

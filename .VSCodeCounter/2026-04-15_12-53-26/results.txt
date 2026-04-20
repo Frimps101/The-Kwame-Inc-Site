@@ -1,0 +1,107 @@
+Date : 2026-04-15 12:53:26
+Directory : /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site
+Total : 71 files,  33947 codes, 102 comments, 501 blanks, all 34550 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          3 |     31,018 |          0 |          3 |     31,021 |
+| PostCSS        |         30 |      1,340 |         52 |        289 |      1,681 |
+| JavaScript JSX |         26 |      1,095 |         17 |        125 |      1,237 |
+| JavaScript     |          9 |        435 |         10 |         50 |        495 |
+| Markdown       |          1 |         38 |          0 |         33 |         71 |
+| HTML           |          1 |         20 |         23 |          1 |         44 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         71 |     33,947 |        102 |        501 |     34,550 |
+| . (Files)                                                                             |          4 |     31,041 |          1 |         35 |     31,077 |
+| public                                                                                |          2 |         45 |         23 |          2 |         70 |
+| src                                                                                   |         65 |      2,861 |         78 |        464 |      3,403 |
+| src (Files)                                                                           |          8 |        247 |         24 |         38 |        309 |
+| src/components                                                                        |         39 |      1,946 |         41 |        318 |      2,305 |
+| src/pages                                                                             |         18 |        668 |         13 |        108 |        789 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                              | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/README.md                      | Markdown       |         38 |          0 |         33 |         71 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/package-lock.json              | JSON           |     30,941 |          0 |          1 |     30,942 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/package.json                   | JSON           |         52 |          0 |          1 |         53 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/public/index.html              | HTML           |         20 |         23 |          1 |         44 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/public/manifest.json           | JSON           |         25 |          0 |          1 |         26 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/App.css                    | PostCSS        |          0 |          5 |          0 |          5 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/App.js                     | JavaScript     |         36 |          1 |          3 |         40 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Arcade.css      | PostCSS        |         25 |          7 |          7 |         39 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Arcade.jsx      | JavaScript JSX |         97 |          0 |         14 |        111 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Banner.css      | PostCSS        |         77 |          3 |         19 |         99 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Banner.js       | JavaScript     |         98 |          0 |          4 |        102 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Button.css      | PostCSS        |         17 |          1 |          2 |         20 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Button.jsx      | JavaScript JSX |          7 |          0 |          3 |         10 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/ComingSoon.css  | PostCSS        |         50 |          2 |          9 |         61 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/ComingSoon.jsx  | JavaScript JSX |         20 |          0 |          3 |         23 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Contacts.css    | PostCSS        |        121 |          1 |         23 |        145 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Contacts.jsx    | JavaScript JSX |         67 |          0 |          6 |         73 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Copyright.css   | PostCSS        |          7 |          0 |          1 |          8 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Copyright.jsx   | JavaScript JSX |         19 |          0 |          2 |         21 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Footer.css      | PostCSS        |         49 |          7 |         14 |         70 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Footer.jsx      | JavaScript JSX |         50 |          0 |          3 |         53 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/FrameStyles.css | PostCSS        |         42 |          1 |          7 |         50 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/FrameStyles.jsx | JavaScript JSX |         17 |          0 |          2 |         19 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Gallery.css     | PostCSS        |         49 |          0 |         11 |         60 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Gallery.jsx     | JavaScript JSX |         31 |          0 |          2 |         33 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Hero.css        | PostCSS        |         94 |          2 |         18 |        114 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Hero.jsx        | JavaScript JSX |         21 |          1 |          2 |         24 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/IconArea.css    | PostCSS        |         70 |          4 |         12 |         86 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/IconArea.jsx    | JavaScript JSX |         33 |          0 |          3 |         36 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Nav.css         | PostCSS        |        101 |          2 |         27 |        130 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Nav.jsx         | JavaScript JSX |        152 |          1 |          7 |        160 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Offer.css       | PostCSS        |         49 |          0 |         12 |         61 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Offer.jsx       | JavaScript JSX |         23 |          0 |          3 |         26 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/PageHero.css    | PostCSS        |         30 |          0 |          5 |         35 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/PageHero.jsx    | JavaScript JSX |         15 |          1 |          3 |         19 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Pricing.css     | PostCSS        |        107 |          1 |         27 |        135 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Pricing.jsx     | JavaScript JSX |         53 |          0 |         11 |         64 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Process.css     | PostCSS        |         65 |          0 |         14 |         79 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Process.jsx     | JavaScript JSX |         88 |          6 |          3 |         97 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Reviews.css     | PostCSS        |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Reviews.jsx     | JavaScript JSX |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Slider.css      | PostCSS        |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Slider.jsx      | JavaScript JSX |         12 |          0 |          5 |         17 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Testimonial.js  | JavaScript     |         58 |          0 |          9 |         67 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Videos.css      | PostCSS        |         83 |          0 |         16 |         99 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/components/Videos.js       | JavaScript     |         49 |          1 |          6 |         56 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/data.js                    | JavaScript     |        158 |          0 |         21 |        179 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/index.css                  | PostCSS        |         26 |         11 |          7 |         44 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/index.js                   | JavaScript     |         13 |          3 |          4 |         20 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/logo.svg                   | XML            |          1 |          0 |          0 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/About.css            | PostCSS        |         33 |          0 |          5 |         38 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/About.jsx            | JavaScript JSX |         47 |          1 |          5 |         53 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Contact.css          | PostCSS        |        138 |          3 |         29 |        170 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Contact.jsx          | JavaScript JSX |         80 |          0 |         10 |         90 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Error.css            | PostCSS        |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Error.jsx            | JavaScript JSX |         34 |          0 |          3 |         37 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/FAQs.css             | PostCSS        |         43 |          0 |          9 |         52 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/FAQs.jsx             | JavaScript JSX |         51 |          1 |          6 |         58 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Gallery.css          | PostCSS        |          4 |          0 |          0 |          4 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Gallery.jsx          | JavaScript JSX |         25 |          0 |          5 |         30 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Home.css             | PostCSS        |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Home.jsx             | JavaScript JSX |         28 |          5 |          3 |         36 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Photography.css      | PostCSS        |         50 |          2 |          8 |         60 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Photography.jsx      | JavaScript JSX |         27 |          1 |          6 |         34 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Pricing.css          | PostCSS        |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/Pricing.jsx          | JavaScript JSX |         63 |          0 |         11 |         74 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/TermsOfService.css   | PostCSS        |         10 |          0 |          2 |         12 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/pages/TermsOfService.jsx   | JavaScript JSX |         35 |          0 |          3 |         38 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/reportWebVitals.js         | JavaScript     |         12 |          0 |          2 |         14 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/src/setupTests.js              | JavaScript     |          1 |          4 |          1 |          6 |
+| /Users/frimpomaa/FusionHub/Personal/The-Kwame-Inc-Site/tailwind.config.js             | JavaScript     |         10 |          1 |          0 |         11 |
+| Total                                                                                 |                |     33,947 |        102 |        501 |     34,550 |
++---------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

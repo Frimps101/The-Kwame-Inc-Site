@@ -5,20 +5,8 @@ import {
   Typography,
   Button,
   IconButton,
-  Card,
 } from "@material-tailwind/react";
 
-const navVariants = {
-  hidden: {
-    y: -150,
-    opacity: 0,
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: { delay: 0.2, type: "spring" },
-  },
-};
 
 const Nav = () => {
   const [openNav, setOpenNav] = React.useState(false);

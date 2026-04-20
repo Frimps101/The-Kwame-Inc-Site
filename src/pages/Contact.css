@@ -100,12 +100,12 @@ textarea {
   border-bottom: 1px solid #000;
 }
 
-button {
+.contact-btn {
   width: 20%;
   border: none;
   padding: 15px;
-  background: var(--primary-dark);
-  color: white;
+  background: var(--primary-dark) !important;
+  color: white !important;
   font-weight: 500;
   cursor: pointer;
   text-transform: uppercase;
@@ -113,8 +113,13 @@ button {
   box-shadow: var(--box-shadow-darker);
 }
 
-button:hover {
+.contact-btn:hover {
   opacity: 0.8;
+}
+
+.contact-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 @media screen and (max-width: 480px) {
@@ -147,4 +152,18 @@ button:hover {
   button {
     margin-top: 10px;
   }
+}
+
+.contact-feedback {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-feedback.success {
+  color: green;
+}
+
+.contact-feedback.error {
+  color: red;
 }
