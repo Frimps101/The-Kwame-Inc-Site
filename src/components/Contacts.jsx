@@ -15,13 +15,14 @@ const Contacts = () => {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        { publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY }
       )
       .then(() => {
         setStatus("success");
         formRef.current.reset();
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error("EmailJS error:", err);
         setStatus("error");
       });
   };

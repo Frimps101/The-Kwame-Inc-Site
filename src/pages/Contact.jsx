@@ -18,7 +18,7 @@ const Contact = () => {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        { publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY }
       )
       .then(() => {
         setStatus("success");
@@ -59,11 +59,11 @@ const Contact = () => {
         </div>
 
         <div className="contactright">
-          <p className="contact-desc">
+          <div className="contact-desc">
             <b>What do you want to do? Get in touch.</b>
             <hr />
             <small>We're always ready for your orders.</small>
-          </p>
+          </div>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" required />
             <input type="text" placeholder="Subject" name="user_subject" required />

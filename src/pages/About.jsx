@@ -34,7 +34,9 @@ const About = () => {
             <h2>Founder & CEO</h2>
             <p>
             An extremly hardworking human, with a passion for the details and ensures that each frame is perfect and is exactly what clients ask for.
+            </p>
             <hr />
+            <p>
             Maxwell Konadu Kwakye is the founder and CEO of the Kwame Inc. He works hard to create and produce work that customers will be proud of.  He also has an extremely supporting sister who he is proud of 😂😂😂😂.
             </p>
             <div className="social_icons">

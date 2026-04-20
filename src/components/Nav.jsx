@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Navbar,
-  MobileNav,
+  Collapse,
   Typography,
   Button,
   IconButton,
@@ -132,12 +132,12 @@ const Nav = () => {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="">
             <a href="pricing">Pricing</a>
           </Button>
-        </MobileNav>
+        </Collapse>
       </Navbar>
       {/* <Outlet /> */}
     </>
